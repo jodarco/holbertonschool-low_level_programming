@@ -1,15 +1,16 @@
 #include "main.h"
 
 /**
- * print_alphabet - Imprime el alfabeto en minúsculas seguido de una nueva línea.
+ * print_alphabet - Imprime el alfabeto en minúsculas
+ * seguido de una nueva línea.
  */
 void print_alphabet(void)
 {
-    char c;
+	char c;
 
-    for (c = 'a'; c <= 'z'; c++)
-    {
-        _putchar(c);
-    }
-    _putchar('\n');
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		_putchar(c);
+	}
+	_putchar('\n');
 }
